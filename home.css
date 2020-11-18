@@ -1,0 +1,156 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+img {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+#temperature {
+height: 200px;
+border: 1px solid #455ad1;
+  }
+
+#temperature-title {
+  background-color:#455ad1;
+    height: 30px; 
+    border-bottom: 1px solid #455ad1; 
+    text-align: center;
+    color: #ffffff;
+}
+
+#temperature-content {
+    line-height: 170px;
+text-align: center;
+}
+
+#temperature-content-b {
+    line-height: 170px;
+text-align: center;
+}
+
+#humidity {
+    height: 200px;
+    border: 1px solid #455ad1;
+  }
+    
+#humidity-title {
+  background-color: #455ad1;
+    height: 30px; 
+    border-bottom: 1px solid #455ad1; 
+    text-align: center;
+    color: #ffffff;
+}
+    
+#humidity-content {
+    line-height: 170px;
+    text-align: center;
+}
+
+#humidity-content-b {
+    line-height: 170px;
+    text-align: center;
+}
+
+#ground-humidity {
+    height: 200px;
+    border: 1px solid #455ad1;
+  }
+    
+#ground-humidity-title {
+  background-color: #455ad1;
+    height: 30px; 
+    border-bottom: 1px solid #455ad1; 
+    text-align: center;
+    color: #ffffff;
+}
+    
+#ground-humidity-content {
+    line-height: 170px;
+    text-align: center;
+}
+
+#ground-humidity-content-b {
+    line-height: 170px;
+    text-align: center;
+}
+#rain {
+    height: 200px;
+    border: 1px solid #455ad1;
+  }
+    
+#rain-title {
+  background-color: #455ad1;
+    height: 30px; 
+    border-bottom: 1px solid #455ad1; 
+    text-align: center;
+    color: #ffffff;
+}
+    
+#rain-content {
+    line-height: 170px;
+    text-align: center;
+}
+
+#rain-content-b {
+    line-height: 170px;
+    text-align: center;
+}
+
+#sectionA{
+  background-color: #dddcdc; 
+  margin-bottom: 10px; 
+  margin-top: 10px; 
+  height: 40px; 
+  border: 1px solid #bebcbc;
+}
+
+#sectionB{
+  background-color: #dddcdc; 
+  margin-bottom: 10px; 
+  margin-top: 10px; 
+  height: 40px; 
+  border: 1px solid #bebcbc;
+}
